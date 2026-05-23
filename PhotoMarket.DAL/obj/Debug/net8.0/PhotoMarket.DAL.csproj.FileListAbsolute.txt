@@ -12,3 +12,4 @@ D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMar
 D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.DAL\obj\Debug\net8.0\PhotoMarket.DAL.pdb
 D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.DAL\obj\Debug\net8.0\PhotoMarket.DAL.genruntimeconfig.cache
 D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.DAL\obj\Debug\net8.0\ref\PhotoMarket.DAL.dll
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.DAL\obj\Debug\net8.0\PhotoMarket.DAL.sourcelink.json

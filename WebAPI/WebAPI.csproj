@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PhotoMarket.DAL\PhotoMarket.DAL.csproj" />
+    <ProjectReference Include="..\PhotoMarket.BL\PhotoMarket.BL.csproj" />
   </ItemGroup>
 
 </Project>

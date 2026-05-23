@@ -70,3 +70,6 @@ D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\WebAPI\o
 D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\WebAPI\obj\Debug\net8.0\WebAPI.pdb
 D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\WebAPI\obj\Debug\net8.0\WebAPI.genruntimeconfig.cache
 D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\WebAPI\obj\Debug\net8.0\ref\WebAPI.dll
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\WebAPI\bin\Debug\net8.0\PhotoMarket.BL.dll
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\WebAPI\bin\Debug\net8.0\PhotoMarket.BL.pdb
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\WebAPI\obj\Debug\net8.0\WebAPI.sourcelink.json

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PhotoMarket.Model")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01d7554882aee11db36e65d7a6b316fb73c2d1ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("PhotoMarket.Model")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PhotoMarket.Model")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

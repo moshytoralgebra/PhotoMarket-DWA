@@ -1,4 +1,6 @@
 using Microsoft.EntityFrameworkCore;
+using PhotoMarket.BL.Interfaces;
+using PhotoMarket.BL.Services;
 using PhotoMarket.DAL.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +11,15 @@ builder.Services.AddDbContext<PhotoMarketContext>(options =>
     options.UseSqlServer(
         builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
+// Register BL services
+builder.Services.AddScoped<ILogService, LogService>();
+builder.Services.AddScoped<IPhotoService, PhotoService>();
+builder.Services.AddScoped<IPhotographerService, PhotographerService>();
+builder.Services.AddScoped<ITagService, TagService>();
+builder.Services.AddScoped<IDownloadService, DownloadService>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

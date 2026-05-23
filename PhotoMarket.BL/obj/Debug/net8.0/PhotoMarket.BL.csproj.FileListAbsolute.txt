@@ -1,0 +1,16 @@
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.BL\bin\Debug\net8.0\PhotoMarket.BL.deps.json
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.BL\bin\Debug\net8.0\PhotoMarket.BL.dll
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.BL\bin\Debug\net8.0\PhotoMarket.BL.pdb
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.BL\bin\Debug\net8.0\PhotoMarket.DAL.dll
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.BL\bin\Debug\net8.0\PhotoMarket.DAL.pdb
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.BL\obj\Debug\net8.0\PhotoMarket.BL.csproj.AssemblyReference.cache
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.BL\obj\Debug\net8.0\PhotoMarket.BL.GeneratedMSBuildEditorConfig.editorconfig
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.BL\obj\Debug\net8.0\PhotoMarket.BL.AssemblyInfoInputs.cache
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.BL\obj\Debug\net8.0\PhotoMarket.BL.AssemblyInfo.cs
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.BL\obj\Debug\net8.0\PhotoMarket.BL.csproj.CoreCompileInputs.cache
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.BL\obj\Debug\net8.0\PhotoMarket.BL.sourcelink.json
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.BL\obj\Debug\net8.0\PhotoMar.1B1A42A1.Up2Date
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.BL\obj\Debug\net8.0\PhotoMarket.BL.dll
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.BL\obj\Debug\net8.0\refint\PhotoMarket.BL.dll
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.BL\obj\Debug\net8.0\PhotoMarket.BL.pdb
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.BL\obj\Debug\net8.0\ref\PhotoMarket.BL.dll

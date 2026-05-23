@@ -1,0 +1,12 @@
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.Model\bin\Debug\net8.0\PhotoMarket.Model.deps.json
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.Model\bin\Debug\net8.0\PhotoMarket.Model.dll
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.Model\bin\Debug\net8.0\PhotoMarket.Model.pdb
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.Model\obj\Debug\net8.0\PhotoMarket.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.Model\obj\Debug\net8.0\PhotoMarket.Model.AssemblyInfoInputs.cache
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.Model\obj\Debug\net8.0\PhotoMarket.Model.AssemblyInfo.cs
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.Model\obj\Debug\net8.0\PhotoMarket.Model.csproj.CoreCompileInputs.cache
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.Model\obj\Debug\net8.0\PhotoMarket.Model.sourcelink.json
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.Model\obj\Debug\net8.0\PhotoMarket.Model.dll
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.Model\obj\Debug\net8.0\refint\PhotoMarket.Model.dll
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.Model\obj\Debug\net8.0\PhotoMarket.Model.pdb
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\PhotoMarket.Model\obj\Debug\net8.0\ref\PhotoMarket.Model.dll

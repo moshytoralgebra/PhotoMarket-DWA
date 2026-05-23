@@ -1,0 +1,25 @@
+using PhotoMarket.BL.Interfaces;
+using PhotoMarket.DAL.Models;
+
+namespace PhotoMarket.BL.Services;
+
+public class LogService : ILogService
+{
+    private readonly PhotoMarketContext _context;
+
+    public LogService(PhotoMarketContext context)
+    {
+        _context = context;
+    }
+
+    public void Add(string level, string message)
+    {
+        _context.Logs.Add(new Log
+        {
+            Level = level,
+            Message = message,
+            Timestamp = DateTime.UtcNow
+        });
+        _context.SaveChanges();
+    }
+}

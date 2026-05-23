@@ -1049,6 +1049,20 @@
           }
         }
       },
+      "PhotoMarket.BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.0",
+          "PhotoMarket.DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PhotoMarket.BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PhotoMarket.BL.dll": {}
+        }
+      },
       "PhotoMarket.DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -3083,6 +3097,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "PhotoMarket.BL/1.0.0": {
+      "type": "project",
+      "path": "../PhotoMarket.BL/PhotoMarket.BL.csproj",
+      "msbuildProject": "../PhotoMarket.BL/PhotoMarket.BL.csproj"
+    },
     "PhotoMarket.DAL/1.0.0": {
       "type": "project",
       "path": "../PhotoMarket.DAL/PhotoMarket.DAL.csproj",
@@ -3091,6 +3110,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "PhotoMarket.BL >= 1.0.0",
       "PhotoMarket.DAL >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
@@ -3123,6 +3143,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "D:\\masha\\UNI\\2year\\2y2s\\DWA\\project\\ProjectTask\\PhotoMarket\\PhotoMarket\\PhotoMarket.BL\\PhotoMarket.BL.csproj": {
+              "projectPath": "D:\\masha\\UNI\\2year\\2y2s\\DWA\\project\\ProjectTask\\PhotoMarket\\PhotoMarket\\PhotoMarket.BL\\PhotoMarket.BL.csproj"
+            },
             "D:\\masha\\UNI\\2year\\2y2s\\DWA\\project\\ProjectTask\\PhotoMarket\\PhotoMarket\\PhotoMarket.DAL\\PhotoMarket.DAL.csproj": {
               "projectPath": "D:\\masha\\UNI\\2year\\2y2s\\DWA\\project\\ProjectTask\\PhotoMarket\\PhotoMarket\\PhotoMarket.DAL\\PhotoMarket.DAL.csproj"
             }
