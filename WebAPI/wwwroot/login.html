@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PhotoMarket — Login</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f0f2f5;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+      padding: 2.5rem 2rem;
+      width: 100%;
+      max-width: 380px;
+    }
+
+    h1 {
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+      color: #1a1a2e;
+    }
+
+    .subtitle {
+      font-size: 0.875rem;
+      color: #888;
+      margin-bottom: 1.75rem;
+    }
+
+    label {
+      display: block;
+      font-size: 0.8125rem;
+      font-weight: 600;
+      color: #444;
+      margin-bottom: 0.35rem;
+    }
+
+    input {
+      width: 100%;
+      padding: 0.6rem 0.75rem;
+      border: 1.5px solid #d1d5db;
+      border-radius: 6px;
+      font-size: 0.9375rem;
+      outline: none;
+      transition: border-color 0.15s;
+      margin-bottom: 1.1rem;
+    }
+
+    input:focus { border-color: #4f46e5; }
+
+    button {
+      width: 100%;
+      padding: 0.7rem;
+      background: #4f46e5;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s;
+      margin-top: 0.25rem;
+    }
+
+    button:hover { background: #4338ca; }
+    button:disabled { background: #a5b4fc; cursor: not-allowed; }
+
+    .error {
+      display: none;
+      background: #fef2f2;
+      border: 1px solid #fca5a5;
+      color: #b91c1c;
+      border-radius: 6px;
+      padding: 0.6rem 0.75rem;
+      font-size: 0.875rem;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>PhotoMarket</h1>
+    <p class="subtitle">Sign in to your account</p>
+
+    <label for="username">Username</label>
+    <input type="text" id="username" placeholder="Enter username" autocomplete="username" />
+
+    <label for="password">Password</label>
+    <input type="password" id="password" placeholder="Enter password" autocomplete="current-password" />
+
+    <button id="loginBtn" onclick="doLogin()">Login</button>
+
+    <div class="error" id="errorMsg"></div>
+  </div>
+
+  <script>
+    // Allow pressing Enter in either field to submit
+    document.getElementById("username").addEventListener("keydown", e => { if (e.key === "Enter") doLogin(); });
+    document.getElementById("password").addEventListener("keydown", e => { if (e.key === "Enter") doLogin(); });
+
+    async function doLogin() {
+      const username = document.getElementById("username").value.trim();
+      const password = document.getElementById("password").value;
+      const btn      = document.getElementById("loginBtn");
+      const errorBox = document.getElementById("errorMsg");
+
+      errorBox.style.display = "none";
+
+      if (!username || !password) {
+        showError("Please enter both username and password.");
+        return;
+      }
+
+      btn.disabled    = true;
+      btn.textContent = "Signing in…";
+
+      try {
+        const response = await fetch("/api/auth/login", {
+          method:  "POST",
+          headers: { "Content-Type": "application/json" },
+          body:    JSON.stringify({ userName: username, password: password })
+        });
+
+        if (response.ok) {
+          const data = await response.json();
+          localStorage.setItem("jwt_token", data.token);
+          window.location.href = "logs.html";
+        } else if (response.status === 401) {
+          showError("Invalid username or password.");
+        } else {
+          const text = await response.text();
+          showError("Login failed: " + (text || response.statusText));
+        }
+      } catch (err) {
+        showError("Network error — could not reach the server.");
+      } finally {
+        btn.disabled    = false;
+        btn.textContent = "Login";
+      }
+    }
+
+    function showError(msg) {
+      const box = document.getElementById("errorMsg");
+      box.textContent    = msg;
+      box.style.display  = "block";
+    }
+  </script>
+</body>
+</html>

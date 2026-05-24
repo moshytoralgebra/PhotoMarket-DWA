@@ -73,3 +73,5 @@ D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\WebAPI\o
 D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\WebAPI\bin\Debug\net8.0\PhotoMarket.BL.dll
 D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\WebAPI\bin\Debug\net8.0\PhotoMarket.BL.pdb
 D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\WebAPI\obj\Debug\net8.0\WebAPI.sourcelink.json
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\masha\UNI\2year\2y2s\DWA\project\ProjectTask\PhotoMarket\PhotoMarket\WebAPI\bin\Debug\net8.0\WebAPI.staticwebassets.runtime.json

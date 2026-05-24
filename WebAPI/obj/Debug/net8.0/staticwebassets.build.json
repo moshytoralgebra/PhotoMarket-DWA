@@ -1,11 +1,58 @@
 {
   "Version": 1,
-  "Hash": "7/8N/7vR8Gil4oF52j1JyaDaDh/w/bwrwTANJiMV94U=",
+  "Hash": "45joB7ulJ7CgQ/j3xvfdneiOytifcT8U+GSp0mzsmNU=",
   "Source": "WebAPI",
   "BasePath": "_content/WebAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebAPI\\wwwroot",
+      "Source": "WebAPI",
+      "ContentRoot": "D:\\masha\\UNI\\2year\\2y2s\\DWA\\project\\ProjectTask\\PhotoMarket\\PhotoMarket\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\masha\\UNI\\2year\\2y2s\\DWA\\project\\ProjectTask\\PhotoMarket\\PhotoMarket\\WebAPI\\wwwroot\\login.html",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\masha\\UNI\\2year\\2y2s\\DWA\\project\\ProjectTask\\PhotoMarket\\PhotoMarket\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "login.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\login.html"
+    },
+    {
+      "Identity": "D:\\masha\\UNI\\2year\\2y2s\\DWA\\project\\ProjectTask\\PhotoMarket\\PhotoMarket\\WebAPI\\wwwroot\\logs.html",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\masha\\UNI\\2year\\2y2s\\DWA\\project\\ProjectTask\\PhotoMarket\\PhotoMarket\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "logs.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logs.html"
+    }
+  ]
 }

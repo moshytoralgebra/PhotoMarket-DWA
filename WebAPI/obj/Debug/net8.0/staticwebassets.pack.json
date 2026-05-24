@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\masha\\UNI\\2year\\2y2s\\DWA\\project\\ProjectTask\\PhotoMarket\\PhotoMarket\\WebAPI\\wwwroot\\login.html",
+      "PackagePath": "staticwebassets\\login.html"
+    },
+    {
+      "Id": "D:\\masha\\UNI\\2year\\2y2s\\DWA\\project\\ProjectTask\\PhotoMarket\\PhotoMarket\\WebAPI\\wwwroot\\logs.html",
+      "PackagePath": "staticwebassets\\logs.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebAPI.props",
+      "PackagePath": "build\\WebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebAPI.props",
+      "PackagePath": "buildMultiTargeting\\WebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebAPI.props",
+      "PackagePath": "buildTransitive\\WebAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
